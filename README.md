@@ -37,9 +37,11 @@ https://archives.lib.rochester.edu/repositories/2 would have the repository numb
 - [ ] Integrate functionality into ArchivesSpace Collections Manager project when that project is ready.
 - [ ] List available repositories by number
 ## Credits
-Code was written by [Channing Norton](https://www.github.com/C-Norton), on behalf of the University of Rochester River Campus Libraries. Special thanks to John Dewees for the request/ idea, and assistance on implementation and publication. All code contributed must first be run through the [Black](https://pypi.org/project/black/) code formatter, and comply to PEP 8 standards in full.
+Code was written by [Channing Norton](https://www.github.com/C-Norton), on behalf of the University of Rochester River Campus Libraries. Special thanks to John Dewees for the request/ idea, and assistance on implementation and publication.
 ## Contributing
 External contributions to this project are accepted, but it should be noted that this is a fairly low priority project for which the MVP has already been delivered. As such, while PRs and issues will be examined, it may take some time for them to be responded to.
+
+All code contributed must first be run through the [Black](https://pypi.org/project/black/) code formatter, and comply to PEP 8 standards in full.
 ## Notes on ArchivesSpace Database
 This code modifies the ArchivesSpace database using the REST API. As such, a consistent internet connection must be ensured prior to running the script. Always back up your database before running the script. Neither myself, other contributors, nor the University of Rochester are responsible for damage to your database caused by this script. As always, be cautious, and proceed at your own risk.
 ## License
