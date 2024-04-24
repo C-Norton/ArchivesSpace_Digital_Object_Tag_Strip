@@ -5,7 +5,7 @@ This is a quick and dirty script for stripping excess HTML tags from digital obj
 This code was written for Python 3.12, with ArchivesSpace v3.4.1 in mind. Other versions of ArchivesSpace and Python may work, but are presently untested.
 In order to use this code, you must have a username and password to the ArchivesSpace server which is configured for write level API access on the repository you intend to modify.
 ## Setup
-Download the files. Run `pip install requirements.txt` in your shell of choice within the working directory. Configure the program as described below, and then run `digital_object_tag_strip.py` using Python.
+Download the files. Run `pip install -r requirements.txt` in your shell of choice within the working directory. Configure the program as described below, and then run `digital_object_tag_strip.py` using Python.
 ## Configuration
 At present, the configuration system for this project is not yet fully implemented. This can, as such, be expected to change in the future.
 ### ArchivesSpaceConnection.txt
