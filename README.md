@@ -24,7 +24,7 @@ At present the preservica URL is not cleanly configured anywhere. As such, pleas
 Simply run the program, and an interactive prompt will talk you through the process. When it asks for a repository number, use the number that appears at the end of URL for the repository overview page. For example
 https://archives.lib.rochester.edu/repositories/2 would have the repository number 2.
 ## TODO List
-- [ ] Refactor code to completely meet PEP 8 standards.
+- [x] Refactor code to completely meet PEP 8 standards.
 - [ ] Add exception handling
 - [ ] Improve logging
 - [ ] Remove U of R url and make it configurable
